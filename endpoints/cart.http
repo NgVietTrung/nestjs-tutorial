@@ -1,0 +1,18 @@
+@baseUrl = http://localhost:5000
+
+###
+POST {{baseUrl}}/api/v1/cart
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRydW5nIiwic3ViIjo5LCJlbWFpbCI6InRydW5nQGdtYWlsLmNvbSIsImlhdCI6MTY3NzA1NTI1OSwiZXhwIjoxNjc3MDU4ODU5fQ.mKOMMVgwCpeqnqQ4JzcdtM0cOedcpQvgH0H2oUIn3IU
+
+{
+    "productId": "16a117a6-f757-49de-9df3-b646d386b63b",
+    "quantity": 1
+}
+
+###
+GET {{baseUrl}}/api/v1/cart
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRydW5nIiwic3ViIjo5LCJlbWFpbCI6InRydW5nQGdtYWlsLmNvbSIsImlhdCI6MTY3NzA1NTI1OSwiZXhwIjoxNjc3MDU4ODU5fQ.mKOMMVgwCpeqnqQ4JzcdtM0cOedcpQvgH0H2oUIn3IU
